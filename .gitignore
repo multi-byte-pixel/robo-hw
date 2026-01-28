@@ -1,0 +1,56 @@
+# Python
+# Byte-compiled / optimized / DLL files and Python cache directories
+__pycache__/               # Python package cache directories
+*.py[cod]                 # Compiled Python files (.pyc, .pyo, .pyd)
+*$py.class                # Python class bytecode files
+*.so                      # Compiled C extensions
+.Python                   # Python binary placeholder
+# Distribution / packaging directories
+build/                   # Build artifacts directory
+develop-eggs/            # Development eggs directory
+dist/                    # Distribution packages directory
+downloads/               # Downloaded files directory
+eggs/                    # Installed eggs directory
+.eggs/                   # Local eggs cache
+lib/                     # Library files (32-bit)
+lib64/                   # Library files (64-bit)
+parts/                   # Buildout parts directory
+sdist/                   # Source distribution directory
+var/                     # Variable files directory
+wheels/                  # Wheel distribution files
+*.egg-info/              # Egg metadata directories
+.installed.cfg           # Buildout installed configuration
+*.egg                    # Egg archive files
+
+# Virtual environments
+# Python virtual environment directories (various naming conventions)
+.venv/                   # Hidden virtual environment (dot convention)
+venv/                    # Standard virtual environment directory
+ENV/                     # Uppercase virtual environment directory
+env/                     # Lowercase virtual environment directory
+
+# Testing
+# Pytest and coverage report directories
+.pytest_cache/            # Pytest cache directory
+.coverage                 # Coverage.py coverage report file
+htmlcov/                 # HTML coverage report directory
+
+# IDE
+# VS Code and JetBrains IDE settings
+.vscode/                 # VS Code workspace settings
+.idea/                   # JetBrains IDE (PyCharm, IntelliJ) settings
+# Editor swap and temporary files
+*.swp                    # Vim swap files
+*.swo                    # Vim alternate swap files
+*~                       # Backup/temporary files (various editors)
+
+# OS
+# macOS system files
+.DS_Store                # macOS folder metadata file
+# Windows thumbnail cache
+Thumbs.db                # Windows image thumbnail cache file
+
+# Environment variables
+# Local environment configuration files (should not be committed)
+.env                     # Default environment configuration file
+.env.local               # Local overrides for environment variables
